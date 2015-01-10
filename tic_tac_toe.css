@@ -1,0 +1,41 @@
+
+#game_container {
+  background:#F2F2F2;
+  width:500px;
+  height:500px;
+  padding:40px 0px 0px 40px;
+  margin:0px auto;
+}
+
+.cell {
+  position: relative;
+  display:inline-block;
+  background:#B1E1EB;
+  height:150px;
+  width:150px;
+  text-align: center;
+}
+
+.x:before {
+  content: "X";
+  position: absolute;
+  top: 0;
+  left: 25;
+  display: inline-block;
+  color: #EDB500;
+  font-family: , sans-serif;
+  font-size: 140px;
+  font-weight: bold;
+}
+
+.o:after {
+  content: "O";
+  position: absolute;
+  top: 0;
+  left: 25;
+  display: inline-block;
+  color: #0184BC;
+  font-family: , sans-serif;
+  font-size: 140px;
+  font-weight: bold;
+}
