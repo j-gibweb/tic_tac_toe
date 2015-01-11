@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "author": "James Weber",
+  "description": "tic-tac-toe",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true,
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.10.7",
+    "path": "^0.11.14"
+  }
+}
