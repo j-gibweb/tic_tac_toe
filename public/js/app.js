@@ -31,8 +31,7 @@
             if (pieces[winner[0]].player) {
               if(
                 pieces[winner[0]].player === pieces[winner[1]].player && 
-                pieces[winner[0]].player === pieces[winner[2]].player &&
-                pieces[winner[1]].player === pieces[winner[2]].player
+                pieces[winner[0]].player === pieces[winner[2]].player 
                 ) {
                 self.announceWinner(pieces[winner[0]].player);
               } 
